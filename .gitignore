@@ -1,0 +1,8 @@
+__pycache__
+venv
+*.db
+migrations
+nohup.out
+docker-mysql-dir
+
+.DS_Store

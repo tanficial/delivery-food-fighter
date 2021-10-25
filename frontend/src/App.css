@@ -1,0 +1,32 @@
+@import url(//font.elice.io/EliceDigitalBaeum.css);
+* {
+  margin: 0;
+}
+
+.App {
+  height: 100vh;
+  /* max-height: 100vh; */
+  /* width: 100vw; */
+  font-family: "Elice Digital Baeum", sans-serif;
+  color: #424242;
+}
+
+/* nivo 라이브러리 이용해서 biaxial 그래프 표현하기 위한 css 디자인 - 한빈 */
+/* .wrapper {
+  height: 300px;
+  position: relative;
+} */
+.graphContainer {
+  height: 300px;
+  top: 0px;
+  width: 100%;
+  z-index: 0;
+}
+
+.secondGraph {
+  height: 300px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 4;
+}
